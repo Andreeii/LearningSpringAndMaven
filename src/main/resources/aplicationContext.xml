@@ -18,7 +18,8 @@
           class="songs.RapMusic">
     </bean>
     <bean id  = "musicPlayer"
-        class = "songs.MusicPlayer">
+        class = "songs.MusicPlayer"
+        scope="prototype">
         <property name="musicList">
             <list>
                 <ref bean="musicBean1"></ref>
