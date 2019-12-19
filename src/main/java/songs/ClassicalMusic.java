@@ -1,4 +1,4 @@
-package ru.alisev.course;
+package songs;
 
 public class ClassicalMusic implements Music {
 
