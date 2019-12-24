@@ -1,5 +1,8 @@
 package songs;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class ClassicalMusic implements Music {
 
     //private constructor for factory method
@@ -10,7 +13,7 @@ public class ClassicalMusic implements Music {
     }
 
     public void doMyInit(){
-        System.out.println("DOing my initializaation ");
+        System.out.println("Doing my initializaation ");
     }
 
     public void doMyDestroy(){
